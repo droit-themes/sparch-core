@@ -1,0 +1,380 @@
+/* End Client Logo Area css
+============================================================================================ */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Our Team Area css
+============================================================================================ */
+.our_team_area .main_title {
+  margin-bottom: 90px;
+}
+.our_team_area .team_inner {
+  margin-bottom: -30px;
+}
+
+.team_item {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.team_item .team_img,
+.team_item .team_text {
+  transition: transform 0.6s ease;
+}
+.team_item .team_text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 40px 28px 28px 28px;
+  background: #c5e213;
+  transition: opacity 0.2s linear;
+  opacity: 0;
+}
+.team_item .team_text h3 {
+  color: #000;
+  font-size: 20px;
+  transform: translateY(10px);
+  transition: all 0.5s;
+  opacity: 0;
+}
+.team_item .team_text h5 {
+  color: #787878;
+  font: 16px "Poppins", sans-serif;
+  margin-bottom: 0px;
+  transform: translateY(10px);
+  transition: all 0.7s;
+  opacity: 0;
+}
+.team_item .team_text .nav {
+  position: absolute;
+  left: 28px;
+  bottom: 28px;
+}
+.team_item .team_text .nav li {
+  margin-right: 20px;
+  opacity: 0;
+  transition: all 300ms linear 0s;
+}
+.team_item .team_text .nav li:nth-child(1) {
+  transition-delay: 100ms;
+}
+.team_item .team_text .nav li:nth-child(2) {
+  transition-delay: 200ms;
+}
+.team_item .team_text .nav li:nth-child(3) {
+  transition-delay: 300ms;
+}
+.team_item .team_text .nav li:nth-child(4) {
+  transition-delay: 400ms;
+}
+.team_item .team_text .nav li:nth-child(5) {
+  transition-delay: 500ms;
+}
+.team_item .team_text .nav li:nth-child(6) {
+  transition-delay: 600ms;
+}
+.team_item .team_text .nav li:nth-child(7) {
+  transition-delay: 700ms;
+}
+.team_item .team_text .nav li:nth-child(8) {
+  transition-delay: 800ms;
+}
+.team_item .team_text .nav li:nth-child(9) {
+  transition-delay: 900ms;
+}
+.team_item .team_text .nav li:nth-child(10) {
+  transition-delay: 1000ms;
+}
+.team_item .team_text .nav li:nth-child(11) {
+  transition-delay: 1100ms;
+}
+.team_item .team_text .nav li:nth-child(12) {
+  transition-delay: 1200ms;
+}
+.team_item .team_text .nav li:nth-child(13) {
+  transition-delay: 1300ms;
+}
+.team_item .team_text .nav li:nth-child(14) {
+  transition-delay: 1400ms;
+}
+.team_item .team_text .nav li:nth-child(15) {
+  transition-delay: 1500ms;
+}
+.team_item .team_text .nav li:nth-child(16) {
+  transition-delay: 1600ms;
+}
+.team_item .team_text .nav li:nth-child(17) {
+  transition-delay: 1700ms;
+}
+.team_item .team_text .nav li:nth-child(18) {
+  transition-delay: 1800ms;
+}
+.team_item .team_text .nav li:nth-child(19) {
+  transition-delay: 1900ms;
+}
+.team_item .team_text .nav li:nth-child(20) {
+  transition-delay: 2000ms;
+}
+.team_item .team_text .nav li:nth-child(21) {
+  transition-delay: 2100ms;
+}
+.team_item .team_text .nav li:nth-child(22) {
+  transition-delay: 2200ms;
+}
+.team_item .team_text .nav li:nth-child(23) {
+  transition-delay: 2300ms;
+}
+.team_item .team_text .nav li:nth-child(24) {
+  transition-delay: 2400ms;
+}
+.team_item .team_text .nav li:nth-child(25) {
+  transition-delay: 2500ms;
+}
+.team_item .team_text .nav li:nth-child(26) {
+  transition-delay: 2600ms;
+}
+.team_item .team_text .nav li:nth-child(27) {
+  transition-delay: 2700ms;
+}
+.team_item .team_text .nav li:nth-child(28) {
+  transition-delay: 2800ms;
+}
+.team_item .team_text .nav li:nth-child(29) {
+  transition-delay: 2900ms;
+}
+.team_item .team_text .nav li:nth-child(30) {
+  transition-delay: 3000ms;
+}
+.team_item .team_text .nav li:nth-child(31) {
+  transition-delay: 3100ms;
+}
+.team_item .team_text .nav li:nth-child(32) {
+  transition-delay: 3200ms;
+}
+.team_item .team_text .nav li:nth-child(33) {
+  transition-delay: 3300ms;
+}
+.team_item .team_text .nav li:nth-child(34) {
+  transition-delay: 3400ms;
+}
+.team_item .team_text .nav li:nth-child(35) {
+  transition-delay: 3500ms;
+}
+.team_item .team_text .nav li:nth-child(36) {
+  transition-delay: 3600ms;
+}
+.team_item .team_text .nav li:nth-child(37) {
+  transition-delay: 3700ms;
+}
+.team_item .team_text .nav li:nth-child(38) {
+  transition-delay: 3800ms;
+}
+.team_item .team_text .nav li:nth-child(39) {
+  transition-delay: 3900ms;
+}
+.team_item .team_text .nav li:nth-child(40) {
+  transition-delay: 4000ms;
+}
+.team_item .team_text .nav li:nth-child(41) {
+  transition-delay: 4100ms;
+}
+.team_item .team_text .nav li:nth-child(42) {
+  transition-delay: 4200ms;
+}
+.team_item .team_text .nav li:nth-child(43) {
+  transition-delay: 4300ms;
+}
+.team_item .team_text .nav li:nth-child(44) {
+  transition-delay: 4400ms;
+}
+.team_item .team_text .nav li:nth-child(45) {
+  transition-delay: 4500ms;
+}
+.team_item .team_text .nav li:nth-child(46) {
+  transition-delay: 4600ms;
+}
+.team_item .team_text .nav li:nth-child(47) {
+  transition-delay: 4700ms;
+}
+.team_item .team_text .nav li:nth-child(48) {
+  transition-delay: 4800ms;
+}
+.team_item .team_text .nav li:nth-child(49) {
+  transition-delay: 4900ms;
+}
+.team_item .team_text .nav li:nth-child(50) {
+  transition-delay: 5000ms;
+}
+.team_item .team_text .nav li:nth-child(51) {
+  transition-delay: 5100ms;
+}
+.team_item .team_text .nav li:nth-child(52) {
+  transition-delay: 5200ms;
+}
+.team_item .team_text .nav li:nth-child(53) {
+  transition-delay: 5300ms;
+}
+.team_item .team_text .nav li:nth-child(54) {
+  transition-delay: 5400ms;
+}
+.team_item .team_text .nav li:nth-child(55) {
+  transition-delay: 5500ms;
+}
+.team_item .team_text .nav li:nth-child(56) {
+  transition-delay: 5600ms;
+}
+.team_item .team_text .nav li:nth-child(57) {
+  transition-delay: 5700ms;
+}
+.team_item .team_text .nav li:nth-child(58) {
+  transition-delay: 5800ms;
+}
+.team_item .team_text .nav li:nth-child(59) {
+  transition-delay: 5900ms;
+}
+.team_item .team_text .nav li:nth-child(60) {
+  transition-delay: 6000ms;
+}
+.team_item .team_text .nav li:nth-child(61) {
+  transition-delay: 6100ms;
+}
+.team_item .team_text .nav li:nth-child(62) {
+  transition-delay: 6200ms;
+}
+.team_item .team_text .nav li:nth-child(63) {
+  transition-delay: 6300ms;
+}
+.team_item .team_text .nav li:nth-child(64) {
+  transition-delay: 6400ms;
+}
+.team_item .team_text .nav li:nth-child(65) {
+  transition-delay: 6500ms;
+}
+.team_item .team_text .nav li:nth-child(66) {
+  transition-delay: 6600ms;
+}
+.team_item .team_text .nav li:nth-child(67) {
+  transition-delay: 6700ms;
+}
+.team_item .team_text .nav li:nth-child(68) {
+  transition-delay: 6800ms;
+}
+.team_item .team_text .nav li:nth-child(69) {
+  transition-delay: 6900ms;
+}
+.team_item .team_text .nav li:nth-child(70) {
+  transition-delay: 7000ms;
+}
+.team_item .team_text .nav li:nth-child(71) {
+  transition-delay: 7100ms;
+}
+.team_item .team_text .nav li:nth-child(72) {
+  transition-delay: 7200ms;
+}
+.team_item .team_text .nav li:nth-child(73) {
+  transition-delay: 7300ms;
+}
+.team_item .team_text .nav li:nth-child(74) {
+  transition-delay: 7400ms;
+}
+.team_item .team_text .nav li:nth-child(75) {
+  transition-delay: 7500ms;
+}
+.team_item .team_text .nav li:nth-child(76) {
+  transition-delay: 7600ms;
+}
+.team_item .team_text .nav li:nth-child(77) {
+  transition-delay: 7700ms;
+}
+.team_item .team_text .nav li:nth-child(78) {
+  transition-delay: 7800ms;
+}
+.team_item .team_text .nav li:nth-child(79) {
+  transition-delay: 7900ms;
+}
+.team_item .team_text .nav li:nth-child(80) {
+  transition-delay: 8000ms;
+}
+.team_item .team_text .nav li:nth-child(81) {
+  transition-delay: 8100ms;
+}
+.team_item .team_text .nav li:nth-child(82) {
+  transition-delay: 8200ms;
+}
+.team_item .team_text .nav li:nth-child(83) {
+  transition-delay: 8300ms;
+}
+.team_item .team_text .nav li:nth-child(84) {
+  transition-delay: 8400ms;
+}
+.team_item .team_text .nav li:nth-child(85) {
+  transition-delay: 8500ms;
+}
+.team_item .team_text .nav li:nth-child(86) {
+  transition-delay: 8600ms;
+}
+.team_item .team_text .nav li:nth-child(87) {
+  transition-delay: 8700ms;
+}
+.team_item .team_text .nav li:nth-child(88) {
+  transition-delay: 8800ms;
+}
+.team_item .team_text .nav li:nth-child(89) {
+  transition-delay: 8900ms;
+}
+.team_item .team_text .nav li:nth-child(90) {
+  transition-delay: 9000ms;
+}
+.team_item .team_text .nav li:nth-child(91) {
+  transition-delay: 9100ms;
+}
+.team_item .team_text .nav li:nth-child(92) {
+  transition-delay: 9200ms;
+}
+.team_item .team_text .nav li:nth-child(93) {
+  transition-delay: 9300ms;
+}
+.team_item .team_text .nav li:nth-child(94) {
+  transition-delay: 9400ms;
+}
+.team_item .team_text .nav li:nth-child(95) {
+  transition-delay: 9500ms;
+}
+.team_item .team_text .nav li:nth-child(96) {
+  transition-delay: 9600ms;
+}
+.team_item .team_text .nav li:nth-child(97) {
+  transition-delay: 9700ms;
+}
+.team_item .team_text .nav li:nth-child(98) {
+  transition-delay: 9800ms;
+}
+.team_item .team_text .nav li:nth-child(99) {
+  transition-delay: 9900ms;
+}
+.team_item .team_text .nav li:nth-child(100) {
+  transition-delay: 10000ms;
+}
+.team_item .team_text .nav li a {
+  color: #000;
+  font-size: 24px;
+  transition: all 300ms linear 0s;
+}
+.team_item .team_text .nav li a:hover {
+  color: #fff;
+}
+.team_item:hover .team_text {
+  opacity: 1;
+}
+.team_item:hover .team_text h3 {
+  transform: translateY(0);
+  opacity: 1;
+}
+.team_item:hover .team_text h5 {
+  transform: translateY(0);
+  opacity: 1;
+}
+.team_item:hover .team_text .nav li {
+  opacity: 1;
+}

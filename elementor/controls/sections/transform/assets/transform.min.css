@@ -1,0 +1,19 @@
+.dl-transform-enable {
+    -webkit-transition-duration: var(--dl-transition-duration, 0.2s);
+    transition-duration: var(--dl-transition-duration, 0.2s);
+    -webkit-transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    -webkit-transform: translate(var(--dl-translate-x, 0), var(--dl-translate-y, 0)) scale(var(--dl-scale-x, 1), var(--dl-scale-y, 1)) skew(var(--dl-skew-x, 0), var(--dl-skew-y, 0)) rotateX(var(--dl-rotate-x, 0))
+        rotateY(var(--dl-rotate-y, 0)) rotateZ(var(--dl-rotate-z, 0));
+    transform: translate(var(--dl-translate-x, 0), var(--dl-translate-y, 0)) scale(var(--dl-scale-x, 1), var(--dl-scale-y, 1)) skew(var(--dl-skew-x, 0), var(--dl-skew-y, 0)) rotateX(var(--dl-rotate-x, 0))
+        rotateY(var(--dl-rotate-y, 0)) rotateZ(var(--dl-rotate-z, 0));
+}
+.dl-transform-enable:hover {
+    -webkit-transform: translate(var(--dl-translate-x-hover, var(--dl-translate-x, 0)), var(--dl-translate-y-hover, var(--dl-translate-y, 0)))
+        scale(var(--dl-scale-x-hover, var(--dl-scale-x, 1)), var(--dl-scale-y-hover, var(--dl-scale-y, 1))) skew(var(--dl-skew-x-hover, var(--dl-skew-x, 0)), var(--dl-skew-y-hover, var(--dl-skew-y, 0)))
+        rotateX(var(--dl-rotate-x-hover, var(--dl-rotate-x, 0))) rotateY(var(--dl-rotate-y-hover, var(--dl-rotate-y, 0))) rotateZ(var(--dl-rotate-z-hover, var(--dl-rotate-z, 0)));
+    transform: translate(var(--dl-translate-x-hover, var(--dl-translate-x, 0)), var(--dl-translate-y-hover, var(--dl-translate-y, 0)))
+        scale(var(--dl-scale-x-hover, var(--dl-scale-x, 1)), var(--dl-scale-y-hover, var(--dl-scale-y, 1))) skew(var(--dl-skew-x-hover, var(--dl-skew-x, 0)), var(--dl-skew-y-hover, var(--dl-skew-y, 0)))
+        rotateX(var(--dl-rotate-x-hover, var(--dl-rotate-x, 0))) rotateY(var(--dl-rotate-y-hover, var(--dl-rotate-y, 0))) rotateZ(var(--dl-rotate-z-hover, var(--dl-rotate-z, 0)));
+}

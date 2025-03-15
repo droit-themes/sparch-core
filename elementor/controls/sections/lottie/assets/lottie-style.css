@@ -1,0 +1,24 @@
+.elementor-editor-active .elementor-element .droit_pro-lottie-layer {
+    cursor: -webkit-grab;
+    cursor: -moz-grab;
+    cursor: grab; }
+  .elementor-editor-active .elementor-element .droit_pro-lottie-layer:hover {
+      outline: 2px dashed #6ec1e4; }
+  .elementor-editor-active .elementor-element .droit_pro-lottie-layer.ui-draggable-dragging {
+      cursor: -webkit-grabbing;
+      cursor: -moz-grabbing;
+      cursor: grabbing; }
+      .droit_pro-lottie-yes .droit_pro-lottie-layer {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 1;
+        -js-display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex; }
+        .droit_pro-lottie-yes .droit_pro-lottie-layer svg {
+          width: 120px;
+          height: 120px; }

@@ -1,0 +1,122 @@
+
+
+/******** latest project section *********/
+.dl_fp_portfolio_section {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.dl_bg_changer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.dl_bg_changer .dl_section_bg {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  will-change: opacity, transform;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: opacity 0.5s 0.2s ease, transform 5s 0.2s ease;
+  -o-transition: opacity 0.5s 0.2s ease, transform 5s 0.2s ease;
+  transition: opacity 0.5s 0.2s ease, transform 5s 0.2s ease;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.dl_bg_changer .dl_section_bg.dl_active {
+  opacity: 1;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.dl_project_box_col {
+  margin-top: 30px;
+}
+
+.dl_project_box_col .dl_project_box {
+  display: block;
+  padding-bottom: 30%;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .dl_project_box_col .dl_project_box .project-box {
+    padding-bottom: 75%;
+  }
+}
+@media (max-width: 768px) {
+  .dl_project_box_col .dl_project_box {
+    padding-bottom: 20%;
+  }
+}
+.dl_project_box_col .dl_project_box .dl_project_box_inner {
+  padding: 2.14rem 1.928rem;
+}
+
+@media (max-width: 991px) {
+  .dl_project_box_col .dl_project_box .dl_project_box_inner {
+    padding: 20px;
+    min-height: 100px;
+  }
+}
+.dl_project_box_col .dl_project_box .dl_title {
+  margin: 0;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.525rem;
+  line-height: 1.2;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.dl_project_box_col .dl_project_box .dl_project_category {
+  position: absolute;
+  bottom: 1.2rem;
+  color: #cccccc;
+  font-size: 16px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.dl_project_box_col .dl_project_box:hover {
+  background-color: #c5e213;
+}
+
+.dl_project_box_col .dl_project_box:hover .dl_title {
+  color: #060a24;
+}
+
+.dl_project_box_col .dl_project_box:hover .dl_project_category {
+  color: #666666;
+}
+
+@media (max-width: 375px) {
+  .dl_project_box_col .dl_project_box .dl_title {
+    font-size: 1.125rem;
+  }
+
+  .dl_project_box_col .dl_project_box .dl_project_category {
+    font-size: 12px;
+  }
+}
+/******** latest project section end *********/

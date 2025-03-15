@@ -1,0 +1,138 @@
+/* Experience Area css
+============================================================================================ */
+.experience_design_area {
+  background: url(../images/design-bg.png) no-repeat scroll center center;
+  background-size: cover;
+}
+.experience_design_area .exp_title {
+  display: flex;
+  align-items: flex-start;
+}
+.experience_design_area .exp_title .d-flex {
+  padding-right: 12px;
+}
+.experience_design_area .exp_title .d-flex h3 {
+  color: #c5e213;
+  font-size: 200px;
+  line-height: 195px;
+  margin-bottom: 0px;
+  margin-top: 17px;
+}
+.experience_design_area .exp_title .media-body {
+  flex: 1;
+  align-self: center;
+}
+.experience_design_area .exp_title .media-body h5 {
+  color: #000;
+  margin-bottom: 0px;
+  font-size: 40px;
+}
+.experience_design_area .exp_text .d-flex {
+  padding-right: 20px;
+}
+.experience_design_area .exp_text .d-flex i {
+  font-size: 150px;
+  color: #c5e213;
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+  line-height: 100px;
+  margin-top: 24px;
+}
+.experience_design_area .exp_text .media-body p {
+  font: 20px/35px "Poppins", sans-serif;
+  color: #000;
+  max-width: 400px;
+  margin-bottom: 35px;
+}
+
+.exp_design_text h2 {
+  color: #000;
+  font: 35px/42px "Poppins", sans-serif;
+  margin-bottom: 40px;
+}
+.exp_design_text h2 span {
+  color: #c5e213;
+}
+.exp_design_text p {
+  font-size: 26px;
+  line-height: 52px;
+  margin-bottom: -15px;
+}
+
+/* End Experience Area css
+============================================================================================ */
+
+/** dl experiance section **/
+.text_bg_img {
+  background: url(../images/sprach/portfolio-full/p-f-11.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  color: transparent !important;
+}
+
+.dl_sp_experiance_title_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.dl_sp_experiance_title_wrapper .dl_sp_experiance_title {
+  color: #c5a47e;
+  font-size: 200px;
+  line-height: 195px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 991px) {
+  .dl_sp_experiance_title_wrapper .dl_sp_experiance_title {
+    font-size: 100px;
+  }
+}
+.dl_sp_experiance_title_wrapper .dl_title {
+  color: #000;
+  margin-bottom: 0px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+@media (max-width: 991px) {
+  .dl_sp_experiance_title_wrapper .dl_title {
+    font-size: 25px;
+  }
+}
+.dl_sp_experiance_content_wrapper {
+  display: flex;
+}
+
+.dl_sp_experiance_content_wrapper .dl_sp_experiance_quote {
+  padding-top: 8px;
+}
+
+.dl_sp_experiance_content_wrapper .dl_sp_experiance_quote i {
+  font-size: 150px;
+  color: #c5e213;
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+  line-height: 100px;
+  margin-top: 24px;
+}
+
+.dl_sp_experiance_content_wrapper .dl_sp_experiance_content {
+  margin-left: 25px;
+}
+
+@media (max-width: 991px) {
+  .dl_sp_experiance_content_wrapper .dl_sp_experiance_content {
+    margin-left: 0;
+  }
+}
+.dl_sp_experiance_content_wrapper .dl_sp_experiance_content .dl_description {
+  font: 20px/35px "Poppins", sans-serif;
+  color: #000;
+  max-width: 400px;
+}
+
+/** dl experiance section end **/

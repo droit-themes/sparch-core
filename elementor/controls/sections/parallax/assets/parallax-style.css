@@ -1,0 +1,34 @@
+.elementor-element.dl-prallax-multi {
+    overflow: hidden;
+}
+
+.elementor-editor-active .dl-parallax-section .elementor-empty-view {
+    z-index: 9999;
+}
+.elementor-element.dl-parallax-yes{overflow: hidden;}
+.elementor-element .dl-parallax-layer {
+    position: absolute;
+    display: block;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.elementor-element .dl-parallax-layer img {
+    width: 100%;
+}
+
+.elementor-editor-active .elementor-element .dl-parallax-layer:hover {
+    outline: 2px dashed #6ec1e4;
+}
+
+.elementor-editor-active .elementor-element .dl-parallax-layer {
+    cursor: -webkit-grab;
+    cursor: -moz-grab;
+    cursor: grab;
+}
+
+.elementor-editor-active .elementor-element .dl-parallax-layer.ui-draggable-dragging {
+    cursor: -webkit-grabbing;
+    cursor: -moz-grabbing;
+    cursor: grabbing;
+}
