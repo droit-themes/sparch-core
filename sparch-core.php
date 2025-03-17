@@ -7,7 +7,7 @@
 Plugin Name: sparch Core
 Plugin URI: https://droitthemes.com/droit-elementor-addons/
 Description: sparch Core plugin,  a plugin for sparch theme assistance 
-Version: 1.0.2
+Version: 1.0.3
 Author: DroitThemes
 Author URI: https://droitthemes.com/
 License: GPLv3
